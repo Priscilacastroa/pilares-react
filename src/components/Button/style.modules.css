@@ -1,0 +1,10 @@
+.btn {
+    background-color: cornflowerblue;
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn:hover{
+/* Black shadow with 10px blur */
+box-shadow: 16px 16px 10px black
+}

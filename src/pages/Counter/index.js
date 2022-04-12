@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "../../components/Button";
 
 export function Counter() {
   // useState é uma função, essa função retorna uma ARRAY com 2 elementos
@@ -18,7 +19,8 @@ export function Counter() {
   return (
     <>
       <p>{estado}</p>
-      <button onClick={sum}>+</button>
+      {/* <button onClick={sum}>+</button> */}
+      <Button clickFunction={sum}>+1 no contador</Button>
     </>
   );
 }
